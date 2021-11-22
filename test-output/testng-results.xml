@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="12" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="328710" started-at="2021-11-21T19:43:03 IST" finished-at="2021-11-21T19:48:32 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="328710" started-at="2021-11-21T19:43:03 IST" finished-at="2021-11-21T19:48:32 IST">
+      <class name="TestScript.Searching">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:TestScript.Searching@66d1af89]" name="setUpBeforeClass" is-config="true" duration-ms="9067" started-at="2021-11-21T19:43:03 IST" finished-at="2021-11-21T19:43:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="Flight_TC_01()[pri:1, instance:TestScript.Searching@66d1af89]" name="Flight_TC_01" duration-ms="26985" started-at="2021-11-21T19:43:12 IST" description="To Test search flight using valid from City and Destination City and  date " finished-at="2021-11-21T19:43:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flight_TC_01 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.Searching@66d1af89]" name="tearDown" is-config="true" duration-ms="57" started-at="2021-11-21T19:43:39 IST" finished-at="2021-11-21T19:43:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flight_TC_01 status=SUCCESS method=Searching.Flight_TC_01()[pri:1, instance:TestScript.Searching@66d1af89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Flight_TC_02()[pri:2, instance:TestScript.Searching@66d1af89]" name="Flight_TC_02" duration-ms="8880" started-at="2021-11-21T19:43:39 IST" description="To Ensure that flights can not be search using the value empty from city, empty Destination City  and date" finished-at="2021-11-21T19:43:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flight_TC_02 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.Searching@66d1af89]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-11-21T19:43:48 IST" finished-at="2021-11-21T19:43:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flight_TC_02 status=SUCCESS method=Searching.Flight_TC_02()[pri:2, instance:TestScript.Searching@66d1af89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Flight_TC_03()[pri:3, instance:TestScript.Searching@66d1af89]" name="Flight_TC_03" duration-ms="11027" started-at="2021-11-21T19:43:48 IST" description=" To Ensure that flight can not booked using empty from city " finished-at="2021-11-21T19:43:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flight_TC_03 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.Searching@66d1af89]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-11-21T19:43:59 IST" finished-at="2021-11-21T19:43:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flight_TC_03 status=SUCCESS method=Searching.Flight_TC_03()[pri:3, instance:TestScript.Searching@66d1af89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Flight_TC_04()[pri:4, instance:TestScript.Searching@66d1af89]" name="Flight_TC_04" duration-ms="10664" started-at="2021-11-21T19:43:59 IST" description="To Ensure that flight can not booked using empty To block " finished-at="2021-11-21T19:44:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flight_TC_04 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.Searching@66d1af89]" name="tearDown" is-config="true" duration-ms="2" started-at="2021-11-21T19:44:10 IST" finished-at="2021-11-21T19:44:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flight_TC_04 status=SUCCESS method=Searching.Flight_TC_04()[pri:4, instance:TestScript.Searching@66d1af89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="Flight_TC_05()[pri:5, instance:TestScript.Searching@66d1af89]" name="Flight_TC_05" duration-ms="7358" started-at="2021-11-21T19:44:10 IST" description="To Ensure that flight can not booked using empty To block " finished-at="2021-11-21T19:44:17 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Enter valid origin city] but found [Enter valid  city]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Enter valid origin city] but found [Enter valid  city]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at TestScript.Searching.Flight_TC_05(Searching.java:208)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flight_TC_05 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.Searching@66d1af89]" name="tearDown" is-config="true" duration-ms="929" started-at="2021-11-21T19:44:17 IST" finished-at="2021-11-21T19:44:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Flight_TC_05 status=FAILURE method=Searching.Flight_TC_05()[pri:5, instance:TestScript.Searching@66d1af89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Book_TC_04()[pri:6, instance:TestScript.Searching@66d1af89]" name="Book_TC_04" duration-ms="32564" started-at="2021-11-21T19:44:18 IST" description="To verify Traveller details with valid title,firstName,LastName And phone number" finished-at="2021-11-21T19:44:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book_TC_04 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.Searching@66d1af89]" name="tearDown" is-config="true" duration-ms="2" started-at="2021-11-21T19:44:51 IST" finished-at="2021-11-21T19:44:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Book_TC_04 status=SUCCESS method=Searching.Book_TC_04()[pri:6, instance:TestScript.Searching@66d1af89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Book_TC_02()[pri:7, instance:TestScript.Searching@66d1af89]" name="Book_TC_02" duration-ms="24099" started-at="2021-11-21T19:44:51 IST" description="To test Book Flight using valid mail id" finished-at="2021-11-21T19:45:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book_TC_02 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.Searching@66d1af89]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-11-21T19:45:15 IST" finished-at="2021-11-21T19:45:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Book_TC_02 status=SUCCESS method=Searching.Book_TC_02()[pri:7, instance:TestScript.Searching@66d1af89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Book_Tc_03()[pri:8, instance:TestScript.Searching@66d1af89]" name="Book_Tc_03" duration-ms="23787" started-at="2021-11-21T19:45:15 IST" description="To test Book Flight using invalid mail id" finished-at="2021-11-21T19:45:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book_Tc_03 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.Searching@66d1af89]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-11-21T19:45:39 IST" finished-at="2021-11-21T19:45:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Book_Tc_03 status=SUCCESS method=Searching.Book_Tc_03()[pri:8, instance:TestScript.Searching@66d1af89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Book_TC_05()[pri:9, instance:TestScript.Searching@66d1af89]" name="Book_TC_05" duration-ms="34041" started-at="2021-11-21T19:45:39 IST" description="To Verify Traveller details without details" finished-at="2021-11-21T19:46:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book_TC_05 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.Searching@66d1af89]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-11-21T19:46:13 IST" finished-at="2021-11-21T19:46:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Book_TC_05 status=SUCCESS method=Searching.Book_TC_05()[pri:9, instance:TestScript.Searching@66d1af89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Book_TC_06()[pri:10, instance:TestScript.Searching@66d1af89]" name="Book_TC_06" duration-ms="46045" started-at="2021-11-21T19:46:13 IST" description="To Verify Travellrr Detail withoud Entering Title" finished-at="2021-11-21T19:46:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book_TC_06 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.Searching@66d1af89]" name="tearDown" is-config="true" duration-ms="2" started-at="2021-11-21T19:46:59 IST" finished-at="2021-11-21T19:46:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Book_TC_06 status=SUCCESS method=Searching.Book_TC_06()[pri:10, instance:TestScript.Searching@66d1af89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Book_TC_07()[pri:11, instance:TestScript.Searching@66d1af89]" name="Book_TC_07" duration-ms="44297" started-at="2021-11-21T19:46:59 IST" description="To verify Travellor details without Entering First Name" finished-at="2021-11-21T19:47:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book_TC_07 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.Searching@66d1af89]" name="tearDown" is-config="true" duration-ms="2" started-at="2021-11-21T19:47:43 IST" finished-at="2021-11-21T19:47:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Book_TC_07 status=SUCCESS method=Searching.Book_TC_07()[pri:11, instance:TestScript.Searching@66d1af89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Book_TC_08()[pri:12, instance:TestScript.Searching@66d1af89]" name="Book_TC_08" duration-ms="44190" started-at="2021-11-21T19:47:43 IST" description="To verify Travellor Details withoud Entering Last Name" finished-at="2021-11-21T19:48:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book_TC_08 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.Searching@66d1af89]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-11-21T19:48:27 IST" finished-at="2021-11-21T19:48:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Book_TC_08 status=SUCCESS method=Searching.Book_TC_08()[pri:12, instance:TestScript.Searching@66d1af89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:TestScript.Searching@66d1af89]" name="tearDownAfterClass" is-config="true" duration-ms="4460" started-at="2021-11-21T19:48:27 IST" finished-at="2021-11-21T19:48:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- TestScript.Searching -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
